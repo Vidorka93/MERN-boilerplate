@@ -1,7 +1,3 @@
-import React, { Component } from 'react';
-
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import "./App.css";
 import GaborMainComponent from "./gabor/_mainComponent/gabor.component";
 import Navbar from "./Dorina/navbar";
@@ -9,11 +5,10 @@ import Navbar from "./Dorina/navbar";
 import GergoMainComponent from "./gergo/GergoMain.component";
 import ZsofiComponent from "./Zsofia/Zsofikomponens";
 
-const App = ({ children }) => {
- return (
-  <>
-  <Header />
-  <Navbar />
+function App() {
+  return (
+    <>
+      <Navbar />
       <GaborMainComponent />
       <ZsofiComponent />
       <div className="App">
@@ -22,18 +17,11 @@ const App = ({ children }) => {
         <img alt="random-dog"></img>
       </div>
       <GergoMainComponent />
-  <main>
-    {children}
-  </main>
+      {/* ### !!! EZT NE TÖRÖLD LÉGYSZÍVES !!! ### */}
 
-  <Footer />
-</>
-
- );
-
-
-};
-
-
+      {/* ### !!! EZT NE TÖRÖLD MERT GERGŐÉ !!! ### */}
+    </>
+  );
+}
 
 export default App;

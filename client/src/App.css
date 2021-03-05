@@ -1,0 +1,39 @@
+@font-face {
+  src: url(./gergo/Starjedi.ttf);
+  font-family: starwars;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgba(235, 224, 228, 0.546);
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(219, 178, 203);
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: Audiowide;
+}
+.gold {
+  background-color: #d4af34;
+  z-index: 2;
+  border: 0;
+}
+.show {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+.prevnext {
+  width: 15%;
+}
+.nav {
+  width: 100%;
+}

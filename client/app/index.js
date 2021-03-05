@@ -16,6 +16,18 @@ import Home from './components/Home/Home';
 import HelloWorld from './components/HelloWorld/HelloWorld';
 
 import './styles/styles.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+
+ReactDOM.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById("root")
+);
+
 
 render((
   <Router>
